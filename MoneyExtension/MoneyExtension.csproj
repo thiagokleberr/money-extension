@@ -1,9 +1,28 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">  
 
-  <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+  <PropertyGroup>  
+    <TargetFramework>net9.0</TargetFramework>  
+    <ImplicitUsings>enable</ImplicitUsings>  
+    <Nullable>enable</Nullable>  
+
+    <PackageId>MoneyExtensionsTK</PackageId>  
+    <Version>1.0.0</Version>  
+    <License>MIT</License>  
+    <Authors>Thiago Kleber</Authors>  
+    <Company>TK</Company>  
+    <PackageDescription>Extension to convert decimal to integer</PackageDescription>  
+    <Description>Extension to convert decimal to integer</Description>  
+    <RepositoryUrl>https://github.com/thiagokleberr/money-extension</RepositoryUrl>  
+    <PackageProjectUrl>https://github.com/thiagokleberr/money-extension</PackageProjectUrl>  
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>  
+    <PackageIcon>icon.png</PackageIcon>  
+    <PackageTags>Dmoney;int;decimal;converter</PackageTags>  
+    <Title>MoneyExtensionsTK</Title>  
+    <Summary>Extension to convert decimal to integer</Summary>  
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Media\icon.png" Pack="true" PackagePath="/" />
+  </ItemGroup>
 
 </Project>
